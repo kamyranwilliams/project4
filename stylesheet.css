@@ -1,0 +1,112 @@
+/* 
+One of these photos for sure
+
+maybe a completion bar
+Cool favicon (in the left corner)
+Clickable poster
+
+
+
+
+	
+.background { 
+	background-image:(images/amazing.gif);
+	background-color: rgba(255,255,255,0.36);
+	background-repeat: xy;
+	background-blend-mode: lighten;
+}
+*/
+#navbar {
+ background-color: #000;
+    overflow: hidden;
+}
+
+#navbar a{
+	float:left;
+	display:block;
+	color:white;
+	text-align:center;
+	padding:14px;
+	text-decoration:none;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #000;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #800080;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #A91BE0;
+    color: white;
+}
+/* GRID	*/
+.grid {
+  /* width: 1000px;
+  height: 500px;
+   grid-template-rows:*/
+   border: 2px black solid;
+  display:grid;
+  grid-gap: 2vh;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.headerbody {
+	backgroud-color:;
+	padding:;
+	grid-column-start:1;
+	grid-column-end:span4;
+}
+.leftsidebar{};
+.rightsidebar{};
+.samplegrid-a{};
+.footer{};
+	
+body {
+	backgroud-image:url(amazing.gif);
+	backgroud-color:#cccccc;
+
+	
+
+	
+	
+/* sticky nav bar maybe dropdown and a current nav link */
+/*
+.box {
+  background-color: white;
+  font-style:
+  color: black;
+  border-radius: 5px;
+  border: 2px #900c3f solid;*/
+}*/
+/*grid-colspan4*/ specific grids
