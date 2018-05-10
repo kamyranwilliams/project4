@@ -1,21 +1,16 @@
 /* 
-One of these photos for sure
-
 maybe a completion bar
 Cool favicon (in the left corner)
 Clickable poster
-
-
-
-
-	
-.background { 
-	background-image:(images/amazing.gif);
-	background-color: rgba(255,255,255,0.36);
-	background-repeat: xy;
-	background-blend-mode: lighten;
-}
 */
+
+h1{
+	color: white;
+}
+
+div{
+	text-align: justify;
+}
 #navbar {
  background-color: #000;
     overflow: hidden;
@@ -70,36 +65,135 @@ Clickable poster
     background-color: #A91BE0;
     color: white;
 }
-/* GRID	*/
+ 	
 .grid {
-  /* width: 1000px;
+   width: 1000px;
   height: 500px;
-   grid-template-rows:*/
-   border: 2px black solid;
+  border: 2px black solid;
   display:grid;
   grid-gap: 2vh;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+  backgroud-color:#eaeaea;
+}
+/* take away thing under Header*/ 
+.headerbody {
+background-color:#eaeaea;
+padding:1em;
+grid-column-start:1;
+grid-column-end:span4;
 }
 
-.headerbody {
-	backgroud-color:;
-	padding:;
-	grid-column-start:1;
-	grid-column-end:span4;
+.leftsidebar {
+background-color:#eaeaea;
+text-color:purple;
+padding:1em;
+grid-column-start:2;
+Grid-column-end:span 2;
+text-align: justify;
 }
-.leftsidebar{};
-.rightsidebar{};
-.samplegrid-a{};
-.footer{};
+
+.rightsidebar { 
+background-color:#eaeaea;
+padding:1em;
+grid-column-start:2;
+Grid-column-end:span 2;
+text-align: justify;
+}
+
+/* make only 2 spaces above footer*/
+/* longer footerbody*/
+
+.footerbody{
+background-color:#eaeaea;
+padding:1em;
+grid-column-start:1;
+grid-column-end:span4;
+}
+
+.grid-4col {
+display: grid;
+grid-template-columns: 1fr(4x);
+grid-gap: 2vh;
+border: 1px black solid;
+}
+
+.grid-colspan4 {
+background-color:#eaeaea;
+padding:1em;
+grid-column-start:1;
+grid-column-end:span4;
+
+}
+
+.grid-colspan2-a {
+background-color:#eaeaea;
+padding:1em;
+grid-column-start:1;
+Grid-column-end:span 2;
+text-align: justify;
+}
+
+.grid-colspan2-b {
+background-color:#eaeaea;
+padding:1em;
+grid-column-start:2;
+Grid-column-end:span 2;
+text-align: justify;
+}
+
+.grid-colspan2-c {
+background-color:#eaeaea;
+padding:1em;
+grid-column-start:3;
+Grid-column-end:span 2;
+text-align: justify;
+}
+
+.grid-colspan1-a {
+background-color:#eaeaea;
+padding:1em;
+grid-column-start:1;
+Grid-column-end:span 1;
+text-align: justify;
+}
+
+.grid-colspan1-b {
+background-color:#eaeaea;
+padding:1em;
+grid-column-start:2;
+Grid-column-end:span 1;
+text-align: justify;
+}
+
+.grid-colspan1-c {
+background-color:#eaeaea;
+padding:1em;
+grid-column-start:3;
+Grid-column-end:span 1;
+text-align: justify;
+}
+
+.grid-colspan1-d {
+background-color:#eaeaea;
+padding:1em;
+grid-column-start:4;
+Grid-column-end:span 1;
+text-align: justify;
+}
+
+
+
+
+
+
 	
 body {
-	backgroud-image:url(amazing.gif);
-	backgroud-color:#cccccc;
+	background-image: url(images/amazing.gif);
+	background-color: rgba(255,255,255,0.36);
+	background-repeat: xy;
+	
+}
 
-	
-
-	
-	
 /* sticky nav bar maybe dropdown and a current nav link */
 /*
 .box {
