@@ -4,13 +4,8 @@ Cool favicon (in the left corner)
 Clickable poster
 */
 
-h1{
-	color: white;
-}
 
-div{
-	text-align: justify;
-}
+
 #navbar {
  background-color: #000;
     overflow: hidden;
@@ -72,7 +67,7 @@ div{
   border: 2px black solid;
   display:grid;
   grid-gap: 2vh;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr ;
   backgroud-color:#eaeaea;
 }
 /* take away thing under Header*/ 
@@ -80,15 +75,16 @@ div{
 background-color:#eaeaea;
 padding:1em;
 grid-column-start:1;
-grid-column-end:span4;
+grid-column-end:span2;
+text-align: justify;
 }
 
 .leftsidebar {
 background-color:#eaeaea;
 text-color:purple;
 padding:1em;
-grid-column-start:2;
-Grid-column-end:span 2;
+grid-column-start:1;
+grid-column-end:span 2;
 text-align: justify;
 }
 
@@ -121,7 +117,7 @@ border: 1px black solid;
 background-color:#eaeaea;
 padding:1em;
 grid-column-start:1;
-grid-column-end:span4;
+grid-column-end:span8;
 
 }
 
@@ -129,7 +125,7 @@ grid-column-end:span4;
 background-color:#eaeaea;
 padding:1em;
 grid-column-start:1;
-Grid-column-end:span 2;
+Grid-column-end:span 4;
 text-align: justify;
 }
 
@@ -184,8 +180,17 @@ text-align: justify;
 
 
 
+h1{
+	color: white;
+}
 
+p{color: white;
+	
+}
 
+div{
+	text-align: justify;
+}
 	
 body {
 	background-image: url(images/amazing.gif);
