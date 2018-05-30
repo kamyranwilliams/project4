@@ -4,7 +4,20 @@ Cool favicon (in the left corner)
 Clickable poster
 */
 
+ font-family: /*arial, sans-serif*/;
+    border-collapse: collapse;
+    width: 100%;
+}
 
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #800080;
+}
 
 #navbar {
  background-color: #000;
@@ -61,11 +74,13 @@ Clickable poster
     color: white;
 }
  	
+.photo{
+	width: 100%;
+}
 .grid {
    width: 1000px;
   height: 500px;
-  border: 2px black solid;
-  display:grid;
+display:grid;
   grid-gap: 2vh;
   grid-template-columns: 1fr 1fr ;
   backgroud-color:#eaeaea;
@@ -100,6 +115,7 @@ text-align: justify;
 /* longer footerbody*/
 
 .footerbody{
+	text-color: 
 background-color:#eaeaea;
 padding:1em;
 grid-column-start:1;
@@ -164,13 +180,12 @@ text-align: justify;
 .grid-colspan1-c {
 background-color:#eaeaea;
 padding:1em;
-grid-column-start:3;
-Grid-column-end:span 1;
+grid-column-start:3;S
 text-align: justify;
 }
 
 .grid-colspan1-d {
-background-color:#eaeaea;
+background-color:/*#eaeaea*/;
 padding:1em;
 grid-column-start:4;
 Grid-column-end:span 1;
